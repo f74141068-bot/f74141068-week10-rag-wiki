@@ -1,0 +1,11 @@
+第十週作業：你還需要手動完成的事項
+
+1. 解壓縮整份專案，先雙擊 index.html、wiki.html、slides.html 確認能開啟。
+2. 在 slides.html 按上一頁／下一頁、目錄、筆記，並在第 13 頁回答 B；用手機或瀏覽器手機模式檢查排版。這一步不能略過：本環境的 Chrome 自動測試被系統管理限制阻擋。
+3. 到 GitHub 建議新建公開 repo：rag-wiki-week10，將解壓縮後「資料夾裡的所有檔案」上傳 repo 根目錄。index.html 一定要在根目錄。
+4. Settings → Pages → Deploy from a branch → main → /(root) → Save。
+5. 在 GitHub Pages 實際顯示的網址後面加 /wiki.html、/slides.html，確認別人不登入也能打開。
+6. 編輯 SUBMISSION.txt：把兩個【請貼上】的佔位符換成真正的公開網址；確認學號姓名及反思符合自己實際工作。
+7. 按課程平台規定的標題，在 11/23 23:59 前繳交（遲交接受至 11/24 16:00），可貼文字與連結，並附上整份 ZIP 作品。
+
+注意：不能只交 PDF 預覽或只貼 GitHub 原始碼頁；評分要求能直接開啟教學 HTML 簡報。

@@ -1,0 +1,11 @@
+PASS | 初始第一頁
+PASS | 下一頁按鈕
+PASS | 方向鍵
+PASS | 目錄開啟
+PASS | 目錄跳頁
+PASS | 問答回饋
+PASS | 講者筆記切換
+PASS | End鍵至最後一頁
+PASS | Home鍵至第一頁
+RESULT: 9/9 PASS
+PASS | JavaScript syntax via node --check

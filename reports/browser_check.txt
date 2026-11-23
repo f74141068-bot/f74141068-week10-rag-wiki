@@ -1,0 +1,13 @@
+BROWSER TEST STATUS: NOT COMPLETED
+
+2026-11-23 本環境呼叫 Chromium / Playwright 開啟 file:/// 與 http://127.0.0.1/ 均返回 net::ERR_BLOCKED_BY_ADMINISTRATOR。這不是網頁內容 404，也不能推論網站不能運作；只是無法在此執行真正的瀏覽器測試。
+
+Alternatives completed:
+- JavaScript syntax: node --check assets/deck.js => PASS
+- JS mocked event logic: node scripts/test_deck_js.js => 9/9 PASS
+- Static render: WeasyPrint produced 14 PDF preview pages => PASS
+
+Remaining user manual test after publishing:
+- 開啟 slides.html，檢查鍵盤左右鍵、上一頁／下一頁、目錄、講者筆記
+- 第 13 頁選 B 顯示正確答案回饋
+- 分別用電腦與手機檢查四個網頁可開啟，且不需橫向捲動

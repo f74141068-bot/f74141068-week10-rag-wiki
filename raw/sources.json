@@ -1,0 +1,131 @@
+{
+  "topic": "RAG 初學者教學",
+  "research_date": "2026-11-23",
+  "items": [
+    {
+      "id": "S01",
+      "short": "Lewis et al. (2020)",
+      "org": "研究論文",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "kind": "原始研究論文",
+      "focus": "RAG 的研究起源與概念",
+      "facts": [
+        "RAG 以生成模型的參數化知識搭配外部、可檢索的非參數化知識。",
+        "原研究以文件檢索搭配生成模型處理知識密集型任務。",
+        "研究指出外部記憶可提供比單靠模型參數更容易更新的知識來源。"
+      ],
+      "caution": "論文中的實驗結果是特定模型與資料集表現，不能直接推論「所有 RAG 都不會幻覺」。",
+      "topics": [
+        "概念",
+        "歷史",
+        "限制"
+      ]
+    },
+    {
+      "id": "S02",
+      "short": "AWS",
+      "org": "Amazon Web Services",
+      "title": "What is RAG (Retrieval-Augmented Generation)?",
+      "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/",
+      "kind": "官方技術說明",
+      "focus": "RAG 的價值、應用與步驟",
+      "facts": [
+        "RAG 在生成答案前提供外部知識庫資訊，讓回應更貼近指定領域。",
+        "RAG 可讓應用連接更新的資料，不必為了加入每筆新知識重訓基礎模型。",
+        "典型流程包含整理資料、查找相關資訊、把資訊送入生成模型並輸出答案。"
+      ],
+      "caution": "「有機會更準確」不等於「保證答案正確」；資料品質與檢索品質仍需驗證。",
+      "topics": [
+        "概念",
+        "優勢",
+        "流程"
+      ]
+    },
+    {
+      "id": "S03",
+      "short": "IBM",
+      "org": "IBM",
+      "title": "What is retrieval augmented generation (RAG)?",
+      "url": "https://www.ibm.com/think/topics/retrieval-augmented-generation",
+      "kind": "官方技術解說",
+      "focus": "四大元件、RAG 與微調",
+      "facts": [
+        "常見 RAG 架構包含知識庫、檢索器、整合層與生成器。",
+        "使用者提問後，檢索器找資料，再把取回的內容加入提示供語言模型作答。",
+        "RAG 主要補外部資訊；微調則是調整模型在領域、風格或任務上的行為，兩者可搭配。",
+        "提供可點開的出處方便核對，但不能完全消除幻覺。"
+      ],
+      "caution": "IBM 列出的五步驟是概念性流程，不表示每一個實作都固定五個軟體服務。",
+      "topics": [
+        "架構",
+        "流程",
+        "微調",
+        "風險"
+      ]
+    },
+    {
+      "id": "S04",
+      "short": "Google Cloud",
+      "org": "Google Cloud",
+      "title": "What is Retrieval-Augmented Generation (RAG)?",
+      "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation",
+      "kind": "官方技術說明",
+      "focus": "檢索與生成如何合作",
+      "facts": [
+        "RAG 結合資訊檢索能力與生成式語言模型的表達能力。",
+        "外部知識可以來自文件、資料庫及其他資訊來源，取回後作為生成的補充內容。",
+        "資料準備與檢索品質會影響最終回答可否貼近使用者的需求。"
+      ],
+      "caution": "範例圖示僅用於概念教學；真實部署需要考慮索引、更新、權限與成本。",
+      "topics": [
+        "概念",
+        "流程",
+        "資料準備"
+      ]
+    },
+    {
+      "id": "S05",
+      "short": "Microsoft Learn",
+      "org": "Microsoft Learn",
+      "title": "Retrieval augmented generation (RAG) and indexes",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/retrieval-augmented-generation?view=foundry-classic",
+      "kind": "官方產品文件",
+      "focus": "索引、embedding、混合搜尋與安全",
+      "facts": [
+        "RAG 可拆成 Retrieve → Augment → Generate 三階段。",
+        "索引可支援關鍵字、語意、向量或混合檢索；embedding 是用於向量相似搜尋的數值表示。",
+        "索引中保留標題、URL 等欄位，有助於追蹤與引用原始文件。",
+        "應測試檢索品質、回答準確性與出處；檢索端也要做權限控管。"
+      ],
+      "caution": "文件包含 Microsoft 平台情境；本作業採其中通用觀念，沒有宣稱使用 Azure 服務。",
+      "topics": [
+        "索引",
+        "流程",
+        "檢索",
+        "安全",
+        "評估"
+      ]
+    },
+    {
+      "id": "S06",
+      "short": "Microsoft Evaluators",
+      "org": "Microsoft Learn",
+      "title": "Retrieval-Augmented Generation (RAG) evaluators",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators",
+      "kind": "官方評估文件",
+      "focus": "將 RAG 拆成檢索與回答兩種品質檢查",
+      "facts": [
+        "RAG 的品質不應只看最後語句流暢與否，也應檢查取回的文件是否相關。",
+        "檢索品質與回答是否符合依據資料，是兩個可分別檢驗的層次。",
+        "評估可以協助定位瓶頸，而不是遇到錯誤就重做整個系統。"
+      ],
+      "caution": "此文件介紹的是評估器及指標；本作業僅實作靜態規則驗證，沒有運行微軟雲端評估器。",
+      "topics": [
+        "評估",
+        "檢查",
+        "Graph"
+      ]
+    }
+  ]
+}

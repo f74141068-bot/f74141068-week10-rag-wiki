@@ -1,0 +1,17 @@
+STATIC PRINT RENDER / WeasyPrint
+PDF pages: 14
+Page 01: PASS / 197 text chars
+Page 02: PASS / 201 text chars
+Page 03: PASS / 216 text chars
+Page 04: PASS / 206 text chars
+Page 05: PASS / 166 text chars
+Page 06: PASS / 208 text chars
+Page 07: PASS / 217 text chars
+Page 08: PASS / 216 text chars
+Page 09: PASS / 222 text chars
+Page 10: PASS / 189 text chars
+Page 11: PASS / 196 text chars
+Page 12: PASS / 205 text chars
+Page 13: PASS / 170 text chars
+Page 14: PASS / 246 text chars
+NOTE: PDF is a visual preview; the graded HTML output is slides.html. PDF cannot test JavaScript or actual browser overflow.

@@ -1,0 +1,26 @@
+PASS | 至少 5 篇唯一來源：6
+PASS | 每筆來源有 HTTPS URL、標題及摘記
+PASS | 來源原始摘記完整：6 / 6
+PASS | 來源證據卡完整：6 / 6
+PASS | Wiki 主題條目數：6
+PASS | Wiki 使用六篇來源：['S01', 'S02', 'S03', 'S04', 'S05', 'S06']
+PASS | Wiki 未使用未知來源 ID
+PASS | HTML 簡報檔案存在
+PASS | 簡報頁數符合 8–15：14
+PASS | 所有頁面有不重複的 ID
+PASS | 每張簡報有來源：14 / 14
+PASS | 來源 ID 均存在
+PASS | 六篇資料皆出現在簡報來源列：['S01', 'S02', 'S03', 'S04', 'S05', 'S06']
+PASS | 簡報語言標記為繁體中文
+PASS | 簡報包含本地互動 JS
+PASS | 本地連結及錨點：120 條、錯誤 0
+PASS | 應交檔案存在：AGENTS.md
+PASS | 應交檔案存在：REQUIREMENTS.md
+PASS | 應交檔案存在：SOURCE_MAPPING.md
+PASS | 應交檔案存在：workflow/GRAPH.md
+PASS | 應交檔案存在：outline.md
+PASS | 應交檔案存在：drafts/slide_script.md
+PASS | 應交檔案存在：REPORT.md
+PASS | 應交檔案存在：SUBMISSION.txt
+
+RESULT: 24/24 PASS; 0 FAIL
